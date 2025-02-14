@@ -49,7 +49,7 @@ const Weather = () => {
       <p className="text-sm md:text-base text-gray-400 mt-2 select-none text-center">
         Weather is what we get, climate is what we expect.
       </p>
-      <div className="flex flex-col w-full max-w-md md:max-w-none md:flex-row gap-2 mt-7 mb-4 px-4 md:px-0">
+      <div className="flex flex-col w-full items-center justify-center max-w-md md:max-w-none md:flex-row gap-2 mt-7 mb-4 px-4 md:px-0">
         <input
           type="text"
           placeholder="Enter city"
