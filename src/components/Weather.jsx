@@ -71,7 +71,7 @@ const Weather = () => {
         </div>
       ) : (
         weather && (
-          <div className="text-center w-[90%] md:w-[490px] h-[400px] md:h-[500px] mt-6 md:mt-10 border-2 border-gray-400 flex flex-col items-center justify-center rounded-md p-4">
+          <div className="text-center w-[90%] md:w-[490px] h-[400px] md:h-[500px] mt-6 md:mt-10 border-2 border-gray-400 flex flex-col items-center justify-center rounded-4xl p-4">
             <h1 className="text-2xl md:text-3xl font-bold select-none">
               {weather.name}
             </h1>
